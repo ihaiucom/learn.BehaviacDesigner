@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehaviacRuntime", "BehaviacRuntime\BehaviacRuntime.csproj", "{20D752ED-6445-4171-AA6C-D2FF67774937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tutorial_1", "tutorial_1\tutorial_1.csproj", "{9503ED20-696E-46C0-A572-332A7574E19E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20D752ED-6445-4171-AA6C-D2FF67774937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D752ED-6445-4171-AA6C-D2FF67774937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D752ED-6445-4171-AA6C-D2FF67774937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D752ED-6445-4171-AA6C-D2FF67774937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9503ED20-696E-46C0-A572-332A7574E19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9503ED20-696E-46C0-A572-332A7574E19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9503ED20-696E-46C0-A572-332A7574E19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9503ED20-696E-46C0-A572-332A7574E19E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

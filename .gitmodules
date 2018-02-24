@@ -1,0 +1,3 @@
+[submodule "behaviac"]
+	path = behaviac
+	url = git@github.com:Tencent/behaviac.git

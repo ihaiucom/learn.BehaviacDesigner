@@ -1,0 +1,4 @@
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/BehaviacRuntime/bin/Debug/BehaviacRuntime.dll.mdb
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/BehaviacRuntime/bin/Debug/BehaviacRuntime.dll
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/BehaviacRuntime/obj/Debug/BehaviacRuntime.dll
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/BehaviacRuntime/obj/Debug/BehaviacRuntime.dll.mdb
