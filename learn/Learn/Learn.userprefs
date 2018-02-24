@@ -1,17 +1,24 @@
 ﻿<Properties StartupConfiguration="{9503ED20-696E-46C0-A572-332A7574E19E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="tutorial_1/workspace/exported/behaviac_generated/types/FirstAgent.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tutorial_3/Program.cs">
     <Files>
-      <File FileName="BehaviacRuntime/runtime/Workspace.cs" Line="20" Column="54" />
-      <File FileName="BehaviacRuntime/runtime/Agent/Agent.cs" Line="201" Column="60" />
-      <File FileName="tutorial_1/Program.cs" Line="13" Column="1" />
-      <File FileName="tutorial_1/workspace/exported/behaviac_generated/types/AgentProperties.cs" Line="18" Column="4" />
-      <File FileName="tutorial_1/workspace/exported/behaviac_generated/types/FirstAgent.cs" Line="18" Column="2" />
+      <File FileName="tutorial_2/workspace/exported/behaviac_generated/types/FirstAgent.cs" Line="28" Column="1" />
+      <File FileName="tutorial_3/Program.cs" Line="69" Column="1" />
+      <File FileName="tutorial_3/workspace/exported/behaviac_generated/types/FirstAgent.cs" Line="30" Column="14" />
+      <File FileName="tutorial_3/workspace/exported/behaviac_generated/types/AgentProperties.cs" Line="1" Column="1" />
+      <File FileName="tutorial_3/workspace/exported/behaviac_generated/types/SecondAgent.cs" Line="20" Column="32" />
+      <File FileName="tutorial_3/workspace/exported/behaviac_generated/behaviors/generated_behaviors.cs" Line="1" Column="1" />
+      <File FileName="BehaviacRuntime/runtime/Agent/Agent.cs" Line="642" Column="38" />
+      <File FileName="BehaviacRuntime/runtime/Agent/Context.cs" Line="383" Column="21" />
+      <File FileName="BehaviacRuntime/runtime/Base/Operation.cs" Line="1034" Column="10" />
+      <File FileName="BehaviacRuntime/runtime/Workspace.cs" Line="672" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.tutorial__2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.tutorial__3 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.tutorial__1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

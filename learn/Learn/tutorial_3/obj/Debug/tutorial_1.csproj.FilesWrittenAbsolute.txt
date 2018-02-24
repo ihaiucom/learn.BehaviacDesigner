@@ -1,0 +1,8 @@
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/tutorial_1/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/tutorial_1/bin/Debug/tutorial_1.exe.mdb
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/tutorial_1/bin/Debug/tutorial_1.exe
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/tutorial_1/obj/Debug/tutorial_1.exe
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/tutorial_1/obj/Debug/tutorial_1.exe.mdb
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/tutorial_1/bin/Debug/BehaviacRuntime.dll
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/tutorial_1/bin/Debug/BehaviacRuntime.dll.mdb
+/Users/zengfeng/workspaces/www/githubpages/learn.BehaviacDesigner/learn/Learn/tutorial_1/bin/Debug/IhaiuLog.dll

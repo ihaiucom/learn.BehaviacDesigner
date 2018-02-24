@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehaviacRuntime", "BehaviacRuntime\BehaviacRuntime.csproj", "{20D752ED-6445-4171-AA6C-D2FF67774937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tutorial_1", "tutorial_1\tutorial_1.csproj", "{9503ED20-696E-46C0-A572-332A7574E19E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tutorial_3", "tutorial_3\tutorial_3.csproj", "{9503ED20-696E-46C0-A572-332A7574E19E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
