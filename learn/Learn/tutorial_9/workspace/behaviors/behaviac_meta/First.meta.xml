@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<meta>
+  <types>
+    <enumtype Type="FirstEnum" Namespace="" IsCustomized="true" DisplayName="FirstEnum" Desc="">
+      <enum NativeValue="A" Value="A" DisplayName="A" Desc="" MemberValue="0" />
+      <enum NativeValue="B" Value="B" DisplayName="B" Desc="" MemberValue="1" />
+      <enum NativeValue="C" Value="C" DisplayName="C" Desc="" MemberValue="2" />
+    </enumtype>
+    <enumtype Type="HeroType" Namespace="" IsCustomized="true" IsImplemented="true" DisplayName="HeroType" Desc="">
+      <enum NativeValue="ZhanShi" Value="ZhanShi" DisplayName="ZhanShi" Desc="" MemberValue="0" />
+      <enum NativeValue="SheShou" Value="SheShou" DisplayName="SheShou" Desc="" MemberValue="1" />
+      <enum NativeValue="FaSi" Value="FaSi" DisplayName="FaSi" Desc="" MemberValue="2" />
+    </enumtype>
+    <struct Type="FirstStruct" Namespace="" Base="" IsCustomized="true" DisplayName="FirstStruct" Desc="">
+      <Member Name="s1" DisplayName="s1" Desc="s1" Type="int" TypeFullName="System.Int32" Class="FirstStruct" Public="true" />
+      <Member Name="s2" DisplayName="s2" Desc="s2" Type="int" TypeFullName="System.Int32" Class="FirstStruct" Public="true" />
+    </struct>
+    <struct Type="HeroStruct" Namespace="" Base="" IsCustomized="true" IsImplemented="true" DisplayName="HeroStruct" Desc="">
+      <Member Name="age" DisplayName="age" Desc="age" Type="int" TypeFullName="System.Int32" Class="HeroStruct" Public="true" />
+      <Member Name="uid" DisplayName="uid" Desc="uid" Type="int" TypeFullName="System.Int32" Class="HeroStruct" Public="true" />
+    </struct>
+  </types>
+  <agents>
+    <agent classfullname="behaviac::Agent" DisplayName="behaviac::Agent" Desc="behaviac::Agent" IsRefType="true" IsImplemented="true">
+      <Method Name="VectorLength" DisplayName="VectorLength" Desc="VectorLength" Class="behaviac::Agent" ReturnType="int" ReturnTypeFullName="System.Int32" Static="true" Public="true" istask="false">
+        <Param Name="param0" Type="const IList&amp;" TypeFullName="System.Collections.IList" DisplayName="param0" Desc="param0" />
+      </Method>
+      <Method Name="VectorAdd" DisplayName="VectorAdd" Desc="VectorAdd" Class="behaviac::Agent" ReturnType="void" ReturnTypeFullName="System.Void" Static="true" Public="true" istask="false">
+        <Param Name="param0" Type="IList&amp;" TypeFullName="System.Collections.IList" DisplayName="param0" Desc="param0" />
+        <Param Name="param1" Type="const System::Object&amp;" TypeFullName="System.Object" DisplayName="param1" Desc="param1" />
+      </Method>
+      <Method Name="VectorRemove" DisplayName="VectorRemove" Desc="VectorRemove" Class="behaviac::Agent" ReturnType="void" ReturnTypeFullName="System.Void" Static="true" Public="true" istask="false">
+        <Param Name="param0" Type="IList&amp;" TypeFullName="System.Collections.IList" DisplayName="param0" Desc="param0" />
+        <Param Name="param1" Type="const System::Object&amp;" TypeFullName="System.Object" DisplayName="param1" Desc="param1" />
+      </Method>
+      <Method Name="VectorContains" DisplayName="VectorContains" Desc="VectorContains" Class="behaviac::Agent" ReturnType="bool" ReturnTypeFullName="System.Boolean" Static="true" Public="true" istask="false">
+        <Param Name="param0" Type="IList&amp;" TypeFullName="System.Collections.IList" DisplayName="param0" Desc="param0" />
+        <Param Name="param1" Type="const System::Object&amp;" TypeFullName="System.Object" DisplayName="param1" Desc="param1" />
+      </Method>
+      <Method Name="VectorClear" DisplayName="VectorClear" Desc="VectorClear" Class="behaviac::Agent" ReturnType="void" ReturnTypeFullName="System.Void" Static="true" Public="true" istask="false">
+        <Param Name="param0" Type="IList&amp;" TypeFullName="System.Collections.IList" DisplayName="param0" Desc="param0" />
+      </Method>
+      <Method Name="LogMessage" DisplayName="LogMessage" Desc="LogMessage" Class="behaviac::Agent" ReturnType="void" ReturnTypeFullName="System.Void" Static="true" Public="true" istask="false">
+        <Param Name="param0" Type="const char*" TypeFullName="System.String" DisplayName="param0" Desc="param0" />
+      </Method>
+    </agent>
+    <agent classfullname="FirstAgent" base="behaviac::Agent" DisplayName="FirstAgent" Desc="FirstAgent" IsRefType="true" IsCustomized="true">
+      <Member Name="firstStruct" DisplayName="firstStruct" Desc="firstStruct" Class="FirstAgent" Type="FirstStruct" TypeFullName="XMLPluginBehaviac.FirstStruct" defaultvalue="{s1=0;s2=0;}" Static="false" Public="true" Readonly="false" />
+      <Member Name="heroStruct" DisplayName="heroStruct" Desc="heroStruct" Class="FirstAgent" Type="HeroStruct*" TypeFullName="XMLPluginBehaviac.HeroStruct" defaultvalue="{age=0;uid=0;}" Static="false" Public="true" Readonly="false" />
+      <Member Name="firstEnum" DisplayName="firstEnum" Desc="firstEnum" Class="FirstAgent" Type="FirstEnum" TypeFullName="XMLPluginBehaviac.FirstEnum" defaultvalue="A" Static="false" Public="false" Readonly="false" />
+      <Member Name="heroType" DisplayName="heroType" Desc="heroType" Class="FirstAgent" Type="HeroType" TypeFullName="XMLPluginBehaviac.HeroType" defaultvalue="ZhanShi" Static="false" Public="true" Readonly="false" />
+      <Method Name="SayHello" DisplayName="SayHello" Desc="SayHello" Class="FirstAgent" ReturnType="void" ReturnTypeFullName="System.Void" Static="false" Public="true" istask="false" />
+      <Method Name="Say" DisplayName="Say" Desc="Say" Class="FirstAgent" ReturnType="void" ReturnTypeFullName="System.Void" Static="false" Public="true" istask="false">
+        <Param Name="txt" Type="string" TypeFullName="System.String" DisplayName="txt" Desc="txt" />
+      </Method>
+      <Method Name="event_task" DisplayName="event_task" Desc="event_task" Class="FirstAgent" ReturnType="void" ReturnTypeFullName="System.Void" Static="false" Public="true" istask="true">
+        <Param Name="val" Type="int" TypeFullName="System.Int32" DisplayName="val" Desc="val" />
+      </Method>
+    </agent>
+  </agents>
+  <instances />
+</meta>

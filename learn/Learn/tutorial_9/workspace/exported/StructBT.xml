@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: StructBT.xml-->
+<behavior name="StructBT" agenttype="FirstAgent" version="5">
+  <node class="Sequence" id="0">
+    <node class="Assignment" id="1">
+      <property CastRight="false" />
+      <property Opl="FirstStruct Self.FirstAgent::firstStruct" />
+      <property Opr="const FirstStruct {s1=1;s2=5;}" />
+    </node>
+    <node class="Assignment" id="2">
+      <property CastRight="false" />
+      <property Opl="HeroStruct Self.FirstAgent::heroStruct" />
+      <property Opr="const HeroStruct {age=3;uid=7;}" />
+    </node>
+    <node class="Assignment" id="4">
+      <property CastRight="false" />
+      <property Opl="FirstEnum Self.FirstAgent::firstEnum" />
+      <property Opr="const FirstEnum B" />
+    </node>
+    <node class="Assignment" id="5">
+      <property CastRight="false" />
+      <property Opl="HeroType Self.FirstAgent::heroType" />
+      <property Opr="const HeroType FaSi" />
+    </node>
+    <node class="Action" id="3">
+      <property Method="Self.FirstAgent::SayHello()" />
+      <property ResultOption="BT_SUCCESS" />
+    </node>
+  </node>
+</behavior>

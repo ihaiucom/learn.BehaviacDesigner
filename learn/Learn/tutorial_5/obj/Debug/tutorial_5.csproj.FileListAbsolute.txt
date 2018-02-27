@@ -1,0 +1,8 @@
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_5\bin\Debug\tutorial_4.exe.config
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_5\obj\Debug\tutorial_4.exe
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_5\obj\Debug\tutorial_4.pdb
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_5\bin\Debug\tutorial_4.exe
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_5\bin\Debug\tutorial_4.pdb
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_5\bin\Debug\BehaviacRuntime.dll
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_5\bin\Debug\IhaiuLog.dll
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_5\bin\Debug\BehaviacRuntime.pdb

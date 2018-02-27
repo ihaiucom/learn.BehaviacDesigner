@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -38,15 +38,19 @@
     <Compile Include="workspace\exported\behaviac_generated\behaviors\generated_behaviors.cs">
       <Link>behaviac_generated\behaviors\generated_behaviors.cs</Link>
     </Compile>
+    <Compile Include="workspace\exported\behaviac_generated\behaviors\generated_behaviors.cs" />
     <Compile Include="workspace\exported\behaviac_generated\types\AgentProperties.cs">
       <Link>behaviac_generated\types\AgentProperties.cs</Link>
     </Compile>
+    <Compile Include="workspace\exported\behaviac_generated\types\AgentProperties.cs" />
     <Compile Include="workspace\exported\behaviac_generated\types\FirstAgent.cs">
       <Link>behaviac_generated\types\FirstAgent.cs</Link>
     </Compile>
+    <Compile Include="workspace\exported\behaviac_generated\types\FirstAgent.cs" />
     <Compile Include="workspace\exported\behaviac_generated\types\SecondAgent.cs">
       <Link>behaviac_generated\types\SecondAgent.cs</Link>
     </Compile>
+    <Compile Include="workspace\exported\behaviac_generated\types\SecondAgent.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BehaviacRuntime\BehaviacRuntime.csproj">

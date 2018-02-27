@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<agents version="1" signature="3680386274">
+  <agent type="FirstAgent" base="behaviac::Agent" signature="1008544719">
+    <properties>
+      <property name="firstStruct" type="FirstStruct" member="false" static="false" defaultvalue="{s1=0;s2=0;}" />
+      <property name="heroStruct" type="HeroStruct*" member="false" static="false" defaultvalue="{age=0;uid=0;}" />
+    </properties>
+  </agent>
+</agents>

@@ -1,0 +1,9 @@
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_9\bin\Debug\tutorial_9.exe.config
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_9\bin\Debug\tutorial_9.exe
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_9\bin\Debug\tutorial_9.pdb
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_9\bin\Debug\BehaviacRuntime.dll
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_9\bin\Debug\IhaiuLog.dll
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_9\bin\Debug\BehaviacRuntime.pdb
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_9\obj\Debug\tutorial_9.csprojResolveAssemblyReference.cache
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_9\obj\Debug\tutorial_9.exe
+C:\zengfeng\github\learn.BehaviacDesigner\learn\Learn\tutorial_9\obj\Debug\tutorial_9.pdb
